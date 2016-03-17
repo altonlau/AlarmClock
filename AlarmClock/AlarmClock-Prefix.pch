@@ -1,0 +1,20 @@
+//
+//  AlarmClock-Prefix.pch
+//  AlarmClock
+//
+//  Created by Alton Lau on 2015-06-04.
+//  Copyright (c) 2015 Alton Lau. All rights reserved.
+//
+
+#ifndef AlarmClock_AlarmClock_Prefix_pch
+#define AlarmClock_AlarmClock_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#import "utils.h"
+#endif
+
+#endif

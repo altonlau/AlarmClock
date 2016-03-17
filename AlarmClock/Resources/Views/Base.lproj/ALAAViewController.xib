@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALAAViewController">
+            <connections>
+                <outlet property="datePicker" destination="y6E-rI-F2a" id="7Sr-4V-9cj"/>
+                <outlet property="messageLabel" destination="OUt-gj-JD5" id="JT9-bQ-vDf"/>
+                <outlet property="messageView" destination="ZIw-wz-oB0" id="MPw-Kq-2OM"/>
+                <outlet property="repeatLabel" destination="Xi1-no-M4w" id="XsC-76-FbM"/>
+                <outlet property="repeatView" destination="OnO-Fz-QlX" id="OhN-LI-iox"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5dS-8l-cTz" userLabel="Wrapper">
+                    <rect key="frame" x="0.0" y="169" width="600" height="100"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIw-wz-oB0" userLabel="AlarmMessage">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="49"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CO-SD-N5C" userLabel="Title">
+                                    <rect key="frame" x="8" y="0.0" width="100" height="47"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="a5N-JX-KWH"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wake up!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUt-gj-JD5" userLabel="Message">
+                                    <rect key="frame" x="350" y="0.0" width="242" height="47"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="242" id="IIV-Ur-QhX"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="OUt-gj-JD5" firstAttribute="top" secondItem="ZIw-wz-oB0" secondAttribute="top" id="1zC-p7-4pN"/>
+                                <constraint firstItem="OUt-gj-JD5" firstAttribute="firstBaseline" secondItem="5CO-SD-N5C" secondAttribute="firstBaseline" id="AXH-WP-e6Y"/>
+                                <constraint firstItem="OUt-gj-JD5" firstAttribute="baseline" secondItem="5CO-SD-N5C" secondAttribute="baseline" id="Kd7-dI-nt3"/>
+                                <constraint firstItem="OUt-gj-JD5" firstAttribute="trailing" secondItem="ZIw-wz-oB0" secondAttribute="trailingMargin" id="XEt-PF-PgB"/>
+                                <constraint firstItem="5CO-SD-N5C" firstAttribute="leading" secondItem="ZIw-wz-oB0" secondAttribute="leadingMargin" id="cRL-uz-Xsx"/>
+                                <constraint firstAttribute="bottom" secondItem="5CO-SD-N5C" secondAttribute="bottom" constant="2" id="xiq-eV-PEk"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="LIn-vb-AUA" appends="YES" id="bxT-a5-ZOD"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OnO-Fz-QlX" userLabel="AlarmRepeat">
+                            <rect key="frame" x="0.0" y="51" width="600" height="49"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repeat" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jl5-D5-dJM" userLabel="Title">
+                                    <rect key="frame" x="8" y="0.0" width="100" height="47"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="F6m-49-xiE"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Everyday" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xi1-no-M4w" userLabel="Repeat">
+                                    <rect key="frame" x="350" y="0.0" width="242" height="47"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="242" id="wqB-Lw-d4L"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="jl5-D5-dJM" secondAttribute="bottom" constant="2" id="4MJ-pt-DIB"/>
+                                <constraint firstItem="jl5-D5-dJM" firstAttribute="baseline" secondItem="Xi1-no-M4w" secondAttribute="baseline" id="AUH-qg-uIy"/>
+                                <constraint firstItem="jl5-D5-dJM" firstAttribute="leading" secondItem="OnO-Fz-QlX" secondAttribute="leadingMargin" id="JIp-IC-r2m"/>
+                                <constraint firstItem="Xi1-no-M4w" firstAttribute="top" secondItem="OnO-Fz-QlX" secondAttribute="top" id="MrU-OD-iwl"/>
+                                <constraint firstItem="Xi1-no-M4w" firstAttribute="trailing" secondItem="OnO-Fz-QlX" secondAttribute="trailingMargin" id="XkH-Po-qcH"/>
+                                <constraint firstItem="jl5-D5-dJM" firstAttribute="firstBaseline" secondItem="Xi1-no-M4w" secondAttribute="firstBaseline" id="abN-Ws-s5E"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="aUa-4O-BKR" appends="YES" id="WoO-TU-Xfj"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="OnO-Fz-QlX" firstAttribute="top" secondItem="ZIw-wz-oB0" secondAttribute="bottom" constant="2" id="9da-zc-xWF"/>
+                        <constraint firstItem="OnO-Fz-QlX" firstAttribute="trailing" secondItem="ZIw-wz-oB0" secondAttribute="trailing" id="IJn-AS-MDp"/>
+                        <constraint firstAttribute="trailing" secondItem="ZIw-wz-oB0" secondAttribute="trailing" id="Izl-j3-XU9"/>
+                        <constraint firstItem="OnO-Fz-QlX" firstAttribute="leading" secondItem="ZIw-wz-oB0" secondAttribute="leading" id="ZKf-QK-b17"/>
+                        <constraint firstItem="ZIw-wz-oB0" firstAttribute="top" secondItem="5dS-8l-cTz" secondAttribute="top" id="ftO-o6-YIB"/>
+                        <constraint firstItem="OnO-Fz-QlX" firstAttribute="top" secondItem="5dS-8l-cTz" secondAttribute="top" constant="51" id="rmn-du-bGv"/>
+                        <constraint firstAttribute="bottom" secondItem="OnO-Fz-QlX" secondAttribute="bottom" id="ssc-35-ked"/>
+                        <constraint firstItem="ZIw-wz-oB0" firstAttribute="leading" secondItem="5dS-8l-cTz" secondAttribute="leading" id="vvM-FT-1Ze"/>
+                    </constraints>
+                </view>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="y6E-rI-F2a">
+                    <rect key="frame" x="0.0" y="277" width="600" height="162"/>
+                    <date key="date" timeIntervalSinceReferenceDate="455317143.762191">
+                        <!--2015-06-06 20:59:03 +0000-->
+                    </date>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="5dS-8l-cTz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AXT-XI-jpJ"/>
+                <constraint firstItem="5dS-8l-cTz" firstAttribute="trailing" secondItem="y6E-rI-F2a" secondAttribute="trailing" id="ZcC-h6-Lao"/>
+                <constraint firstItem="5dS-8l-cTz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="169" id="a1N-Oh-U2j"/>
+                <constraint firstItem="y6E-rI-F2a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="277" id="fWR-Ms-nZB"/>
+                <constraint firstAttribute="trailing" secondItem="y6E-rI-F2a" secondAttribute="trailing" id="iKY-bE-uNS"/>
+                <constraint firstItem="y6E-rI-F2a" firstAttribute="top" secondItem="5dS-8l-cTz" secondAttribute="bottom" constant="8" symbolic="YES" id="rHc-ex-Pgb"/>
+                <constraint firstItem="y6E-rI-F2a" firstAttribute="leading" secondItem="5dS-8l-cTz" secondAttribute="leading" id="w0B-j6-Xgw"/>
+            </constraints>
+        </view>
+        <tapGestureRecognizer id="LIn-vb-AUA" userLabel="messageViewTapRecognizer">
+            <connections>
+                <action selector="messageViewTapped:" destination="-1" id="ovO-MI-gIO"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="aUa-4O-BKR" userLabel="repeatViewTapRecognizer">
+            <connections>
+                <action selector="repeatViewTapped:" destination="-1" id="yWy-0m-oYl"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

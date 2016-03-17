@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALAAMessageViewController">
+            <connections>
+                <outlet property="messageTextField" destination="t2E-5a-wHg" id="7kG-3C-pxa"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Message" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="t2E-5a-wHg" userLabel="messageTextField">
+                    <rect key="frame" x="8" y="285" width="584" height="30"/>
+                    <color key="textColor" red="0.45882352939999999" green="0.85882352939999995" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="tintColor" red="0.45882352939999999" green="0.85882352939999995" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="t2E-5a-wHg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="3UP-ez-Aji"/>
+                <constraint firstItem="t2E-5a-wHg" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="ohP-dF-HPp"/>
+                <constraint firstItem="t2E-5a-wHg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="ozv-Ky-eaY"/>
+            </constraints>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="Nfe-ad-xHB" appends="YES" id="f8Y-0W-UPq"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="Nfe-ad-xHB">
+            <connections>
+                <action selector="viewTapped:" destination="-1" id="dCQ-8h-NDX"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

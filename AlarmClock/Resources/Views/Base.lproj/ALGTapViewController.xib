@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ALGTapViewController">
+            <connections>
+                <outlet property="clockImageView" destination="8a5-QX-1Nf" id="X2j-dk-aEP"/>
+                <outlet property="clockImageViewTopEdgeConstraint" destination="AYC-ZO-u3a" id="kwp-GC-OSH"/>
+                <outlet property="view" destination="YAP-i6-aFZ" id="9FS-uK-sk5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YAP-i6-aFZ">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jc7-gb-ayf" userLabel="containerView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbZ-Ob-J1D" userLabel="backView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlarmClock-green" translatesAutoresizingMaskIntoConstraints="NO" id="qQi-bf-4qo">
+                                    <rect key="frame" x="130" y="129" width="341" height="341"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="centerY" secondItem="qQi-bf-4qo" secondAttribute="centerY" id="ay0-XV-SJS"/>
+                                <constraint firstAttribute="centerX" secondItem="qQi-bf-4qo" secondAttribute="centerX" id="gpE-uu-M9q"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8a5-QX-1Nf" userLabel="frontView">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlarmClock-white" translatesAutoresizingMaskIntoConstraints="NO" id="pUm-rQ-5EG">
+                                    <rect key="frame" x="130" y="129" width="341" height="341"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.45882352939999999" green="0.85882352939999995" blue="0.79215686269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="centerX" secondItem="pUm-rQ-5EG" secondAttribute="centerX" id="1Lf-lp-RZM"/>
+                                <constraint firstAttribute="centerY" secondItem="pUm-rQ-5EG" secondAttribute="centerY" id="kRf-Qe-E93"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="8a5-QX-1Nf" firstAttribute="top" secondItem="jc7-gb-ayf" secondAttribute="top" id="AYC-ZO-u3a"/>
+                        <constraint firstItem="jbZ-Ob-J1D" firstAttribute="top" secondItem="jc7-gb-ayf" secondAttribute="top" id="J2v-VS-R6W"/>
+                        <constraint firstAttribute="bottom" secondItem="jbZ-Ob-J1D" secondAttribute="bottom" id="PVI-Zd-57J"/>
+                        <constraint firstItem="jbZ-Ob-J1D" firstAttribute="leading" secondItem="jc7-gb-ayf" secondAttribute="leading" id="ar7-vu-IbJ"/>
+                        <constraint firstItem="8a5-QX-1Nf" firstAttribute="leading" secondItem="jc7-gb-ayf" secondAttribute="leading" id="bWA-qQ-j1Y"/>
+                        <constraint firstAttribute="trailing" secondItem="jbZ-Ob-J1D" secondAttribute="trailing" id="cGk-ES-Q6J"/>
+                        <constraint firstAttribute="height" secondItem="8a5-QX-1Nf" secondAttribute="height" id="hb2-hB-Uoa"/>
+                        <constraint firstAttribute="trailing" secondItem="8a5-QX-1Nf" secondAttribute="trailing" id="oq4-4v-DFl"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xao-Xe-0YU" userLabel="invisibleView">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="vD5-ZS-XK9" appends="YES" id="7fg-QF-Yaf"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Xao-Xe-0YU" firstAttribute="trailing" secondItem="jc7-gb-ayf" secondAttribute="trailing" id="5jG-Eq-XtI"/>
+                <constraint firstItem="jc7-gb-ayf" firstAttribute="leading" secondItem="YAP-i6-aFZ" secondAttribute="leading" id="7bM-Oa-znj"/>
+                <constraint firstItem="Xao-Xe-0YU" firstAttribute="bottom" secondItem="jc7-gb-ayf" secondAttribute="bottom" id="HIL-fI-adU"/>
+                <constraint firstItem="jc7-gb-ayf" firstAttribute="top" secondItem="YAP-i6-aFZ" secondAttribute="top" id="dXd-NA-Fcz"/>
+                <constraint firstItem="Xao-Xe-0YU" firstAttribute="leading" secondItem="jc7-gb-ayf" secondAttribute="leading" id="ho6-4f-Y7z"/>
+                <constraint firstAttribute="trailing" secondItem="jc7-gb-ayf" secondAttribute="trailing" id="p1z-qO-0j1"/>
+                <constraint firstItem="Xao-Xe-0YU" firstAttribute="top" secondItem="jc7-gb-ayf" secondAttribute="top" id="rAZ-dH-3xY"/>
+                <constraint firstAttribute="bottom" secondItem="jc7-gb-ayf" secondAttribute="bottom" id="t27-7U-nc6"/>
+            </constraints>
+            <point key="canvasLocation" x="334" y="75"/>
+        </view>
+        <tapGestureRecognizer delaysTouchesEnded="NO" id="vD5-ZS-XK9">
+            <connections>
+                <action selector="handleViewTap:" destination="-1" id="KFa-Im-x4e"/>
+                <outlet property="delegate" destination="-1" id="pnN-qe-WSz"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="AlarmClock-green" width="341" height="341"/>
+        <image name="AlarmClock-white" width="341" height="341"/>
+    </resources>
+</document>

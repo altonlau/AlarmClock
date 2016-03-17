@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F1A70C28C7BD4E5EA99C09D /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CB82BAE9B3D30B26D11E4FA1 /* SWCellScrollView.h */; };
+		208234FC0063BEAA0235BAF1 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E7B5AB458A2C07512B41B6 /* SWUtilityButtonTapGestureRecognizer.h */; };
+		3801BAD908309EB8EB43CBBE /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5CF077F4EC6328FA601509 /* SWUtilityButtonView.m */; };
+		685713D2EC320C347AE56F20 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C368E9187825CBEF6473611 /* SWLongPressGestureRecognizer.m */; };
+		72E1F03DA0DA81B88ACBA116 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCABEB34F0457B98F8103409 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		85D05C06E58814D29F76EFB0 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC41568B306C08C5CD0566A /* SWTableViewCell.m */; };
+		8EF1B18F90199C2B19593FE0 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD54480199CD67FDA017C2D /* NSMutableArray+SWUtilityButtons.m */; };
+		A5B9DECFB71431B83FB81CDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EC2993DCC4B67F2330F4D7 /* Foundation.framework */; };
+		AA9C965F121E50F48535B8B6 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD66B84E7E92D281E3558F57 /* SWCellScrollView.m */; };
+		AEC616EDF491A380CD310DF4 /* Pods-AlarmClock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4247EA2FC522A1FCFCDA2EFD /* Pods-AlarmClock-dummy.m */; };
+		B0C3B1C5C31AB0CECF5A76A5 /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A5B621A542454756DA877A /* NSMutableArray+SWUtilityButtons.h */; };
+		CFA5DEAB6FDA54BC42ECF431 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4358B7C194BE2C6EA436C045 /* SWUtilityButtonView.h */; };
+		D4AF02194D970F33A7C6586C /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E77601FE636D42CA1F1660 /* SWLongPressGestureRecognizer.h */; };
+		E1DEBB689CE755C5D9388F38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EC2993DCC4B67F2330F4D7 /* Foundation.framework */; };
+		F82EC64AA576F5D26B4937F1 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C7A0CDBAEA9C3047A7CECD3 /* SWTableViewCell.h */; };
+		F91B6ADBF659DC161389CB92 /* Pods-AlarmClock-SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B896E46525C709BB8C8487D1 /* Pods-AlarmClock-SWTableViewCell-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD91891BE26DEC8B9719A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73E2590EAFB5EF35B7EC68C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C85B469C0947B527E5684E4;
+			remoteInfo = "Pods-AlarmClock-SWTableViewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FD54480199CD67FDA017C2D /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		2DD1BE1F6D7AC0458C286E45 /* Pods-AlarmClock-SWTableViewCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmClock-SWTableViewCell-Private.xcconfig"; sourceTree = "<group>"; };
+		3D3D571F9B5F16C0A3D4C969 /* Pods-AlarmClock-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmClock-environment.h"; sourceTree = "<group>"; };
+		4247EA2FC522A1FCFCDA2EFD /* Pods-AlarmClock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmClock-dummy.m"; sourceTree = "<group>"; };
+		4358B7C194BE2C6EA436C045 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		51EDD5FC54233B94AFA553C5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5633E6DA31D3DE02BA60ED9E /* libPods-AlarmClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlarmClock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C7A0CDBAEA9C3047A7CECD3 /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		68F4E2AF143D3F26A0E34F3E /* Pods-AlarmClock-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlarmClock-acknowledgements.plist"; sourceTree = "<group>"; };
+		74E77601FE636D42CA1F1660 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		7AC41568B306C08C5CD0566A /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		7C368E9187825CBEF6473611 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		84E7B5AB458A2C07512B41B6 /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		89EC2993DCC4B67F2330F4D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A305713B0F900D8886FF0641 /* Pods-AlarmClock-SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlarmClock-SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		A39921481EA5BBAEF7394CAF /* Pods-AlarmClock-SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmClock-SWTableViewCell.xcconfig"; sourceTree = "<group>"; };
+		B896E46525C709BB8C8487D1 /* Pods-AlarmClock-SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlarmClock-SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		C8710349D902CDF4C20D79B6 /* Pods-AlarmClock-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlarmClock-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB82BAE9B3D30B26D11E4FA1 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		CF5CF077F4EC6328FA601509 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		D355DFCBBEF408607A330A61 /* Pods-AlarmClock-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlarmClock-resources.sh"; sourceTree = "<group>"; };
+		D7C76B91C7A387443A1EE58D /* Pods-AlarmClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmClock.debug.xcconfig"; sourceTree = "<group>"; };
+		DB01A2B5EAD5E565B5F0DCE5 /* libPods-AlarmClock-SWTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AlarmClock-SWTableViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCABEB34F0457B98F8103409 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		DD66B84E7E92D281E3558F57 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		F0D021583B0ABA42D9021695 /* Pods-AlarmClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlarmClock.release.xcconfig"; sourceTree = "<group>"; };
+		F3A5B621A542454756DA877A /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50A8228F717B5B917FEA7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B9DECFB71431B83FB81CDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A687935022171E258FB9F1A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DEBB689CE755C5D9388F38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E854B65C4DAECCF0B2AD36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				89EC2993DCC4B67F2330F4D7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6211E20E6EAEA0DA34A081C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5633E6DA31D3DE02BA60ED9E /* libPods-AlarmClock.a */,
+				DB01A2B5EAD5E565B5F0DCE5 /* libPods-AlarmClock-SWTableViewCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76FB37A2F77DA83E5E50464D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86376B8A09238967345E8488 /* Pods-AlarmClock */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78BE54FC4957F7E58BDD6DD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E854B65C4DAECCF0B2AD36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86376B8A09238967345E8488 /* Pods-AlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				C8710349D902CDF4C20D79B6 /* Pods-AlarmClock-acknowledgements.markdown */,
+				68F4E2AF143D3F26A0E34F3E /* Pods-AlarmClock-acknowledgements.plist */,
+				4247EA2FC522A1FCFCDA2EFD /* Pods-AlarmClock-dummy.m */,
+				3D3D571F9B5F16C0A3D4C969 /* Pods-AlarmClock-environment.h */,
+				D355DFCBBEF408607A330A61 /* Pods-AlarmClock-resources.sh */,
+				D7C76B91C7A387443A1EE58D /* Pods-AlarmClock.debug.xcconfig */,
+				F0D021583B0ABA42D9021695 /* Pods-AlarmClock.release.xcconfig */,
+			);
+			name = "Pods-AlarmClock";
+			path = "Target Support Files/Pods-AlarmClock";
+			sourceTree = "<group>";
+		};
+		CA93FADF528921E4CF6D5BB4 = {
+			isa = PBXGroup;
+			children = (
+				51EDD5FC54233B94AFA553C5 /* Podfile */,
+				78BE54FC4957F7E58BDD6DD7 /* Frameworks */,
+				F0F778F3115E4493E5112235 /* Pods */,
+				6211E20E6EAEA0DA34A081C2 /* Products */,
+				76FB37A2F77DA83E5E50464D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DA8E4D37FF242A4B8EFE98 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5B621A542454756DA877A /* NSMutableArray+SWUtilityButtons.h */,
+				1FD54480199CD67FDA017C2D /* NSMutableArray+SWUtilityButtons.m */,
+				CB82BAE9B3D30B26D11E4FA1 /* SWCellScrollView.h */,
+				DD66B84E7E92D281E3558F57 /* SWCellScrollView.m */,
+				74E77601FE636D42CA1F1660 /* SWLongPressGestureRecognizer.h */,
+				7C368E9187825CBEF6473611 /* SWLongPressGestureRecognizer.m */,
+				5C7A0CDBAEA9C3047A7CECD3 /* SWTableViewCell.h */,
+				7AC41568B306C08C5CD0566A /* SWTableViewCell.m */,
+				84E7B5AB458A2C07512B41B6 /* SWUtilityButtonTapGestureRecognizer.h */,
+				DCABEB34F0457B98F8103409 /* SWUtilityButtonTapGestureRecognizer.m */,
+				4358B7C194BE2C6EA436C045 /* SWUtilityButtonView.h */,
+				CF5CF077F4EC6328FA601509 /* SWUtilityButtonView.m */,
+				E6A61926AE9FD66666BA633D /* Support Files */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		E6A61926AE9FD66666BA633D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39921481EA5BBAEF7394CAF /* Pods-AlarmClock-SWTableViewCell.xcconfig */,
+				2DD1BE1F6D7AC0458C286E45 /* Pods-AlarmClock-SWTableViewCell-Private.xcconfig */,
+				B896E46525C709BB8C8487D1 /* Pods-AlarmClock-SWTableViewCell-dummy.m */,
+				A305713B0F900D8886FF0641 /* Pods-AlarmClock-SWTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-AlarmClock-SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		F0F778F3115E4493E5112235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA8E4D37FF242A4B8EFE98 /* SWTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		99BBF8BF20F9742F0BD835BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0C3B1C5C31AB0CECF5A76A5 /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				0F1A70C28C7BD4E5EA99C09D /* SWCellScrollView.h in Headers */,
+				D4AF02194D970F33A7C6586C /* SWLongPressGestureRecognizer.h in Headers */,
+				F82EC64AA576F5D26B4937F1 /* SWTableViewCell.h in Headers */,
+				208234FC0063BEAA0235BAF1 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				CFA5DEAB6FDA54BC42ECF431 /* SWUtilityButtonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C85B469C0947B527E5684E4 /* Pods-AlarmClock-SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 709DAF2E0B19BF27F79A2ABA /* Build configuration list for PBXNativeTarget "Pods-AlarmClock-SWTableViewCell" */;
+			buildPhases = (
+				A983D36D448C066ED5068255 /* Sources */,
+				A50A8228F717B5B917FEA7F5 /* Frameworks */,
+				99BBF8BF20F9742F0BD835BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AlarmClock-SWTableViewCell";
+			productName = "Pods-AlarmClock-SWTableViewCell";
+			productReference = DB01A2B5EAD5E565B5F0DCE5 /* libPods-AlarmClock-SWTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5974BCDE3E2CCC014EDBB6FD /* Pods-AlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369A82A97AEC261CDCBD53DD /* Build configuration list for PBXNativeTarget "Pods-AlarmClock" */;
+			buildPhases = (
+				5D5D3EC609EA9E8A983608E5 /* Sources */,
+				A687935022171E258FB9F1A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				812355E14D6401399A56A47C /* PBXTargetDependency */,
+			);
+			name = "Pods-AlarmClock";
+			productName = "Pods-AlarmClock";
+			productReference = 5633E6DA31D3DE02BA60ED9E /* libPods-AlarmClock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E2590EAFB5EF35B7EC68C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 8A699267C793D617C2040FC0 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA93FADF528921E4CF6D5BB4;
+			productRefGroup = 6211E20E6EAEA0DA34A081C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5974BCDE3E2CCC014EDBB6FD /* Pods-AlarmClock */,
+				0C85B469C0947B527E5684E4 /* Pods-AlarmClock-SWTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D5D3EC609EA9E8A983608E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC616EDF491A380CD310DF4 /* Pods-AlarmClock-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A983D36D448C066ED5068255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF1B18F90199C2B19593FE0 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				F91B6ADBF659DC161389CB92 /* Pods-AlarmClock-SWTableViewCell-dummy.m in Sources */,
+				AA9C965F121E50F48535B8B6 /* SWCellScrollView.m in Sources */,
+				685713D2EC320C347AE56F20 /* SWLongPressGestureRecognizer.m in Sources */,
+				85D05C06E58814D29F76EFB0 /* SWTableViewCell.m in Sources */,
+				72E1F03DA0DA81B88ACBA116 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				3801BAD908309EB8EB43CBBE /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		812355E14D6401399A56A47C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AlarmClock-SWTableViewCell";
+			target = 0C85B469C0947B527E5684E4 /* Pods-AlarmClock-SWTableViewCell */;
+			targetProxy = 8CD91891BE26DEC8B9719A68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		095BD8A9276D054EB75B1FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		558E0CC4BE7B3ED3EA6A65F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66182617BEECDC1F0FC94A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C76B91C7A387443A1EE58D /* Pods-AlarmClock.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		662ECCAEA24822DE74614660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D021583B0ABA42D9021695 /* Pods-AlarmClock.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9299E7BDC4017EE5E1525DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD1BE1F6D7AC0458C286E45 /* Pods-AlarmClock-SWTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AlarmClock-SWTableViewCell/Pods-AlarmClock-SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F86374F375F983ACE635DC0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD1BE1F6D7AC0458C286E45 /* Pods-AlarmClock-SWTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AlarmClock-SWTableViewCell/Pods-AlarmClock-SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369A82A97AEC261CDCBD53DD /* Build configuration list for PBXNativeTarget "Pods-AlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66182617BEECDC1F0FC94A52 /* Debug */,
+				662ECCAEA24822DE74614660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		709DAF2E0B19BF27F79A2ABA /* Build configuration list for PBXNativeTarget "Pods-AlarmClock-SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9299E7BDC4017EE5E1525DDA /* Debug */,
+				F86374F375F983ACE635DC0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A699267C793D617C2040FC0 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558E0CC4BE7B3ED3EA6A65F8 /* Debug */,
+				095BD8A9276D054EB75B1FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E2590EAFB5EF35B7EC68C4 /* Project object */;
+}
